@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AuthenticationCrudAngularClient"
+    }
+  },
+  "defaultProject": "AuthenticationCrudAngularClient",
+  "cli": {
+    "analytics": false
+  }
 }
