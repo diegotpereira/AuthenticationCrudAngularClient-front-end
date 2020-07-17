@@ -6,7 +6,7 @@ import { Partner } from './partner';
   providedIn: 'root'
 })
 export class PartnerService {
-  private baseUrl = 'http://localhost:8080/api/';
+  private baseUrl = 'http://localhost:9000/api/';
 
   constructor(private http:HttpClient) { }
 
