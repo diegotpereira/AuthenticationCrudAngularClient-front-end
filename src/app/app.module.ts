@@ -13,14 +13,16 @@ import { LogoutComponent } from './logout/logout.component';
 import { HttpInterceptorService } from './httpInterceptor.service';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from './user/home/home.component';
 
 
-import { StudentListComponent } from './student-list/student-list.component';
-import { AddStudentComponent } from './add-student/add-student.component';
+import { StudentListComponent } from './user/student-list/student-list.component';
+import { AddStudentComponent } from './user/add-student/add-student.component';
 
 
 import {DataTablesModule} from 'angular-datatables';
+import { RegisterComponent } from './register/register.component';
+import { PartnerlistComponent } from './partnerlist/partnerlist.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +33,8 @@ import {DataTablesModule} from 'angular-datatables';
     LogoutComponent,
     StudentListComponent,
     AddStudentComponent,
+    RegisterComponent,
+    PartnerlistComponent,
   ],
   imports: [
     BrowserModule,
